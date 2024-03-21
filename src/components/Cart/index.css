@@ -1,0 +1,81 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+.summary {
+  margin-left: auto;
+  color: #616e7c;
+  font-family: 'Roboto';
+}
+
+.summary > h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.summary > h1 > span {
+  color: #171f46;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.summary > p {
+  margin-top: 0.4rem;
+}
+
+.checkout {
+  width: 100%;
+  border: none;
+  background-color: #0b69ff;
+  color: white;
+  font-family: 'Roboto';
+  border-radius: 0.3rem;
+  padding: 0.7rem;
+}
+
+.remove-all {
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+  color: #0b69ff;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
